@@ -1,0 +1,25 @@
+{
+  "presets": ["react-native", "react-native-dotenv"],
+  "retainLines": true,
+  "plugins": [
+    [
+      "module-resolver",
+      {
+        "root": ["./src"],
+        "cwd": "babelrc",
+        "alias": {
+          "@components": "./src/components",
+          "@constants": "./src/constants",
+          "@hocs": "./src/hocs",
+          "@managers": "./src/managers",
+          "@reducers": "./src/reducers",
+          "@screens": "./src/screens",
+          "@static": "./src/static",
+          "@styles": "./src/styles",
+          "@types": "./src/types",
+          "@utils": "./src/utils"
+        }
+      }
+    ]
+  ]
+}

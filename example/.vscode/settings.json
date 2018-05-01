@@ -1,0 +1,8 @@
+{
+  "editor.renderWhitespace": "boundary",
+  "editor.rulers": [80],
+  "editor.tabSize": 2,
+  "prettier.singleQuote": true,
+  "javascript.validate.enable": false,
+  "tslint.autoFixOnSave": true
+}

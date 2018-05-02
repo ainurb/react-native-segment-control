@@ -1,6 +1,6 @@
 {
   "name": "react-native-segment-control",
-  "version": "1.0.0",
+  "version": "1.0.1",
   "description": "",
   "main": "index.tsx",
   "scripts": {
@@ -10,7 +10,12 @@
     "type": "git",
     "url": "git+https://github.com/ainurb/react-native-segment-control.git"
   },
-  "keywords": ["segment", "control", "tab", "animated"],
+  "keywords": [
+    "segment",
+    "control",
+    "tab",
+    "animated"
+  ],
   "author": "Ainur Baizhumanova",
   "license": "MIT",
   "bugs": {

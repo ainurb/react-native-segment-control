@@ -8,29 +8,13 @@ import {
   TouchableOpacity
 } from "react-native";
 
-interface ISegment {
-  title: string;
-  view: (props: any) => JSX.Element;
-  viewProps?: object;
-}
-
-interface IProps extends ViewProperties {
-  segments?: ISegment[];
-  color?: string;
-}
-interface IState {
-  scrollX: Animated.Value;
-  containerWidth: number;
-}
-
-class SegmentControl extends Component<IProps, IState> {
-  public state = {
+class SegmentControl extends Component {
+  state = {
     scrollX: new Animated.Value(0),
     containerWidth: 0
   };
-  private scrollView: any;
 
-  public render() {
+  render() {
     const { segments = [], color = "#4549D1" } = this.props;
     const numberOfSegments = segments.length;
     const { containerWidth } = this.state;
@@ -91,7 +75,7 @@ class SegmentControl extends Component<IProps, IState> {
     );
   }
 
-  private renderSegment = (numberOfSegments, title, index) => {
+  renderSegment = (numberOfSegments, title, index) => {
     const input = Array.from(
       { length: numberOfSegments },
       (value, key) => key
@@ -129,7 +113,7 @@ class SegmentControl extends Component<IProps, IState> {
     );
   };
 
-  private handleOnScroll = (x): void => {
+  handleOnScroll = x => {
     const mover = Animated.event([
       { nativeEvent: { contentOffset: { x: this.state.scrollX } } }
     ]);

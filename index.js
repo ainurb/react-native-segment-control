@@ -123,7 +123,7 @@ class SegmentControl extends Component {
 
 const styles = StyleSheet.create({
   card: {
-    margin: 8,
+    width: "100%",
     backgroundColor: "white",
     borderRadius: 6,
     shadowColor: "black",

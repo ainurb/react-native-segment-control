@@ -1,8 +1,8 @@
 # react-native-segment-control
 
 A React Native swipeable SegmentedControl component for iOS and Android
-<img src="https://github.com/ainurb/react-native-segment-control/blob/master/example/example1.gif" width="30%" />
-<img src="https://github.com/ainurb/react-native-segment-control/blob/master/example/example2.gif" width="30%" />
+
+<img src="https://github.com/ainurb/react-native-segment-control/blob/master/example/example1.gif" width="30%" /> <img src="https://github.com/ainurb/react-native-segment-control/blob/master/example/example2.gif" width="30%" />
 
 ## Installation
 

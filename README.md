@@ -1,5 +1,10 @@
 # react-native-segment-control
 
+[![Platform](https://img.shields.io/badge/platform-react--native-lightgrey.svg)](http://facebook.github.io/react-native/)
+[![npm version](http://img.shields.io/npm/v/react-native-modal-loader.svg)](https://www.npmjs.com/package/react-native-modal-loader)
+[![npm downloads](https://img.shields.io/npm/dm/react-native-modal-loader.svg?update=7)](http://badge.fury.io/js/react-native-modal-loader)
+[![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.github.com/testshallpass/react-native-dropdownalert/master/LICENSE)
+
 A React Native swipeable SegmentedControl component for iOS and Android
 
 <img src="https://github.com/ainurb/react-native-segment-control/blob/master/example/example1.gif" width="30%" /> <img src="https://github.com/ainurb/react-native-segment-control/blob/master/example/example2.gif" width="30%" />

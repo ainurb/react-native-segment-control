@@ -5,7 +5,7 @@
 [![npm downloads](https://img.shields.io/npm/dm/react-native-segment-control.svg?update=7)](http://badge.fury.io/js/react-native-segment-control)
 [![License](https://img.shields.io/badge/license-MIT-blue.svg)](https://raw.github.com/testshallpass/react-native-segment-control/master/LICENSE)
 
-A React Native swipeable SegmentedControl component for iOS and Android
+## Demo
 
 <img src="https://github.com/ainurb/react-native-segment-control/blob/master/example/example1.gif" width="30%" /> <img src="https://github.com/ainurb/react-native-segment-control/blob/master/example/example2.gif" width="30%" />
 

@@ -60,3 +60,8 @@ const styles = StyleSheet.create({
 
 export default App;
 ```
+
+## TO-DO's:
+
+- [ ] Add background color property
+- [ ] Add icons as tab titles
